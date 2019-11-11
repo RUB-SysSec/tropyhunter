@@ -49,7 +49,7 @@ pip3 install pyelftools
 
 ## IDA Export
 
-First load the binary into IDA (preferable IDA on Linux). Then execute the `ida_export.py` script available in the `ida_export` directory. This script will transform the binary executable into SSA form, export necessary information, and do a pre-selection of PRNG/CHF functions.
+First load the binary into IDA (preferable IDA on Linux). Then execute the `ida_export.py` script available in the `ida_export` directory. This script will transform the binary executable into SSA form, export necessary information, and do a pre-selection of PRNG/CHF functions. The SSA generation is taken from the [SSA for IDA project](https://github.com/dwuid/phida).
 
 ## Analysis
 
